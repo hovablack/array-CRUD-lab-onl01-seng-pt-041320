@@ -12,13 +12,13 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro", "arrays!"]
   from.unshift "wow"
 
 end
 
 def remove_element_from_end_of_array(array)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro", "arrays!"]
+  from = ["wow", "demon_souls", "dark_souls", "bloodborne", "sekiro", "arrays!"]
   from.pop
 
 end
