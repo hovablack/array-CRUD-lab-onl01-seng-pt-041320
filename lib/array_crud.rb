@@ -18,26 +18,31 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro", "arrays!"]
+  from.pop "arrays!"
 
 end
 
 def remove_element_from_start_of_array(array)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from = ["wow", "demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from.shift "wow"
 
 end
 
 def retrieve_element_from_index(array, index_number)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from = ["demon_souls", "dark_souls", "am", "bloodborne", "sekiro"]
+  from[2]
 
 end
 
 def retrieve_first_element_from_array(array)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from = ["wow", "demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from["wow"]
 
 end
 
 def retrieve_last_element_from_array(array)
-  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+  from = ["demon_souls", "dark_souls", "bloodborne", "sekiro", "arrays!"]
+  from["arrays!"]
 
 end
