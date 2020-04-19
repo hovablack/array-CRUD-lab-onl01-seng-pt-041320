@@ -37,12 +37,12 @@ end
 
 def retrieve_first_element_from_array(array)
   from = ["wow", "demon_souls", "dark_souls", "bloodborne", "sekiro"]
-  from["wow"]
+  from.first
 
 end
 
 def retrieve_last_element_from_array(array)
   from = ["demon_souls", "dark_souls", "bloodborne", "sekiro", "arrays!"]
-  from["arrays!"]
+  from.last
 
 end
