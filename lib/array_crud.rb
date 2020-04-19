@@ -1,13 +1,13 @@
 def create_an_empty_array
-  Array.new
+  from = []
 end
 
 def create_an_array
   ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
-
 end
 
 def add_element_to_end_of_array(array, element)
+  ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
 
 end
 
