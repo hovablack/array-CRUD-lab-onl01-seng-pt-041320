@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
     from = ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
-    from << "elden_ring"
+    from << "elden_ring!"
 end
 
 def add_element_to_start_of_array(array, element)
