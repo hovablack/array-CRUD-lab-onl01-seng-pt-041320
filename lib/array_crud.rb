@@ -7,7 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-    array << "arrays"
+    ["demon_souls", "dark_souls", "bloodborne", "sekiro"]
+    << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
